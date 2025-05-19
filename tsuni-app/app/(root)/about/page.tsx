@@ -89,7 +89,7 @@ export default function Home() {
         </div>
 
         <Link
-          href={"https://github.com/ErwanCoubret/takeair-cassini-hackathon"}
+          href={"https://github.com/ErwanCoubret/tsuni"}
           className="flex items-center gap-2 w-fit bg-gray-2 text-green-4 p-2 rounded"
         >
           <FaGithub />
