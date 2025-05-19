@@ -29,7 +29,7 @@ export default function FeatherGame() {
       </p>
       <div className="flex h-110 items-center justify-center mb-6 -z-20 bg-green-2 rounded">
         <motion.div
-          animate={{ y: [150, -173, 150], rotate: [-15, 5, -15] }}
+          animate={{ y: [150, -173, 150], rotate: [-3, 15, -3] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         >
           <div className="relative z-20">
