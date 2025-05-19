@@ -35,7 +35,7 @@ export default function Home() {
 
         <Image
           src="/TSUNI BANNER PNG.png"
-          width={300}
+          width={250}
           height={100}
           alt="Logo"
           className="mx-auto my-5"
@@ -85,6 +85,9 @@ export default function Home() {
             ))}
           </ul>
 
+            <p className="text-sm text-gray-4 italic">
+              Sous la supervision d’Audrey VOLTZENLOGEL (KS groupe)
+            </p>
 
         </div>
 

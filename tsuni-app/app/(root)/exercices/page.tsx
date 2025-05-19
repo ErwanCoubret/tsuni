@@ -1,6 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect } from "react";
+import { FaArrowRight } from "react-icons/fa";
+import { FaFeatherPointed } from "react-icons/fa6";
 
 export default function Home() {
   useEffect(() => {
@@ -23,9 +26,28 @@ export default function Home() {
           Découvrez des exercices pratiques pour vous aider à gérer le stress et l'anxiété. Ces exercices sont conçus pour être simples et efficaces, et ont été définis conjointement avec des professionnels de santé.
         </p>
 
+        <div className="flex justify-between gap-1 bg-gray-2 rounded p-2">
+          <div className="flex flex-col gap-1">
+            <div className="flex items-center gap-2">
+              <FaFeatherPointed className="text-green-3 text-2xl" />
+              <h2 className="text-green-3 font-bold text-base mb-1">Jeu de la Plume</h2>
+            </div>
+
+            <p className="text-gray-4 text-sm">
+              Retrouvez un rythme de respiration apaisant et relaxant en suivant la queue du renard.
+            </p>
+          </div>
+
+          <Link className="flex items-center bg-green-3 justify-center bg-gray-3 h-full p-2 rounded"
+            href="./exercices/feather">
+
+            <FaArrowRight className=" text-white text-xl rounded  ml-auto" />
+          </Link>
+        </div>
+
         <div className="w-full p-3 bg-green-1 rounded-lg border-2 border-green-2 text-green-3">
           <p className="text-sm">
-            Cette section est en construction.
+            Plus d'exercices sont en élaboration.
           </p>
         </div>
       </div>

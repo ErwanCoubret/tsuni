@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="absolute max-w-[600px] bottom-0 z-4000 bg-gray-2 h-15 text-white w-full">
       <div className="flex items-center w-full h-full">
         <Link
-          href="./"
+          href="/"
           className={`flex flex-col justify-center items-center w-full h-full ${
             pathname === "/" ? "bg-green-2 text-gray-1 rounded-tr" : "text-green-4"
           }`}
@@ -26,7 +26,7 @@ export default function Navbar() {
         </Link>
 
         <Link
-          href="./exercices"
+          href="/exercices"
           className={`flex flex-col justify-center items-center w-full h-full ${
             pathname === "/exercices" ? "bg-green-2 text-gray-1 rounded-t" : "text-green-4"
           }`}
@@ -40,7 +40,7 @@ export default function Navbar() {
         </Link>
 
         <Link
-          href="./diary"
+          href="/diary"
           className={`flex flex-col justify-center items-center w-full h-full ${
             pathname === "/diary" ? "bg-green-2 text-gray-1 rounded-t" : "text-green-4"
           }`}
@@ -54,7 +54,7 @@ export default function Navbar() {
         </Link>
 
         <Link
-          href="./about"
+          href="/about"
           className={`flex flex-col justify-center items-center w-full h-full ${
             pathname === "/about" ? "bg-green-2 text-gray-1 rounded-tl" : "text-green-4"
           }`}
